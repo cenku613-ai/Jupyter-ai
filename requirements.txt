@@ -1,0 +1,45 @@
+# requirements.txt with specific versions
+# Format: package==version
+uv
+jupyter-server-proxy==4.4.0
+jupyter_scheduler
+jupyter-ai
+
+# Security Patches (2026-09-01 vulnfix round: pinned to versions that clear grype findings)
+Brotli>=1.2.0
+GitPython==3.1.61
+Jinja2>=3.1.5
+pillow==12.3.0
+cryptography>=50.0.0
+jupyter-lsp>=2.2.2
+jupyterhub>=5.5.0
+fonttools>=4.60.2
+idna>=3.19
+jupyterlab-git==0.54.0
+setuptools>=84.0.0
+urllib3>=2.6.0
+notebook==7.5.6
+pyarrow==23.0.1
+aiohttp>=3.13.3
+jupyter_core==5.8.1
+protobuf==5.29.6
+tornado==6.5.8
+wheel>=0.48.0
+bokeh==3.8.2
+distributed==2026.1.1
+jupyter_server==2.20.0
+jupyterlab==4.5.10
+fastmcp==3.2.0
+mcp>=1.28.1
+mako>=1.4.1
+mistune>=3.3.4
+soupsieve>=2.9.2
+pyjwt==2.13.0
+nbconvert==7.17.1
+requests>=2.34.2
+h2>=4.4.1
+bleach>=6.4.0
+pygments>=2.21.0
+msgpack>=1.2.2
+jaraco-context>=6.1.2
+pip>=26.2.1
